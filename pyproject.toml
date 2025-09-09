@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling>=1.24.2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gitscan"
+version = "0.1.0"
+description = "Opinionated Git assistant that detects risky situations and suggests safe alternatives."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+  { name = "gitscan authors", email = "noreply@example.com" }
+]
+keywords = ["git", "cli", "guardrails", "security", "tools"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "License :: OSI Approved :: MIT License",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Version Control :: Git",
+  "Topic :: Security",
+  "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://example.com/gitscan"
+Repository = "https://example.com/gitscan/repo"
+
+[project.scripts]
+gitscan = "gitscan.cli:main"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-q"
+testpaths = ["tests"]
+
+
