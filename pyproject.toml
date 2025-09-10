@@ -3,7 +3,7 @@ requires = ["hatchling>=1.24.2"]
 build-backend = "hatchling.build"
 
 [project]
-name = "gitscan"
+name = "git-rescue"
 version = "0.1.0"
 description = "Opinionated Git assistant that detects risky situations and suggests safe alternatives."
 readme = "README.md"
