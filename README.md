@@ -7,7 +7,7 @@ Opinionated Git assistant that detects risky situations and suggests safe altern
 Once published to PyPI:
 
 ```bash
-pip install gitscan
+pip install git-rescue
 ```
 
 From source (for development):

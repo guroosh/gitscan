@@ -51,3 +51,4 @@ jobs:
         python -m build
     - name: Publish distribution to PyPI
       uses: pypa/gh-action-pypi-publish@release/v1
+      # No credentials needed with Trusted Publishers (OIDC)
